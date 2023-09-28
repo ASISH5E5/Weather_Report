@@ -15,7 +15,7 @@ const changehandler=e=>{
     setData({...data,[e.target.name]:e.target.value})
 }
 const subhandle=e=>{
-    e.preventDefault(); // Corrected typo
+    e.preventDefault(); 
 
     fetch('https://my-new-project-23d1a-default-rtdb.firebaseio.com/data.json', {
         method: 'POST',
