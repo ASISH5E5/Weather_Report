@@ -1,0 +1,63 @@
+
+.main{
+    width: 350px;
+    height: 450px;
+    margin: 100px 0px 50px 0px;
+    background-color: rgb(48, 232, 236);
+    border: 1px solid rgb(156, 187, 186);
+    border-radius: 5px;
+    font-size: 40px;
+
+}
+.backlink{
+    font-size: 20px;
+}
+h1{
+    font-size: 33px;
+}
+.inpcity{
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+    border-radius: 3px;
+    font-size: 25px;
+    font-family:cursive;
+}
+.search{
+    margin-top: 5px solid white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+
+
+}
+.info{
+    width: 350px;
+    height:200px ;
+}
+.temp{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.search_icons{
+    width: 50px;
+    height: 50px;
+    margin: -40px 120px 90px 0px;
+}
+.location{
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .humidity{
+    font-size: 20px;
+    width: 100px;
+    float: left;
+ }
+ .wind{
+    font-size: 20px;
+    width: 100px;
+    float: right;
+ }
