@@ -5,6 +5,7 @@ function Home() {
     <div>
      <center>
         <h1>Hello this is home page</h1>
+        <h1>Weather Information</h1>
         <h1>__________________</h1>
         <Link to='/signup'>Login/signup</Link>
      </center>

@@ -17,11 +17,11 @@ const Login = () => {
     createUserWithEmailAndPassword(database,email,password).then(data =>{
         console.log(data,"authData")
         history('/weather')
-    })
-
+    }).catch(err=>{
+      alert('Error occured may be emial-already in use')
+      console.log(err)
+  })
   }
-   
-
   return (
     <div>
       <center>
